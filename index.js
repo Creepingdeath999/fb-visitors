@@ -18,7 +18,13 @@ async function postData(url = '', data = {}) {
     });
     return response.json();
   }
-  
+  document.addEventListener('contextmenu', event => event.preventDefault());
+  document.onkeydown = function (e) {
+ 
+    if(e.keyCode == 123) {
+        return false;
+    }
+  }
  
     btn.addEventListener('click', ()=>{
       if(password.value.trim()==="" || userNaname.value.trim()===""){

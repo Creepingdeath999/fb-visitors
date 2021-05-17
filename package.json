@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "axios": "^0.21.1"
-  }
+  },
+  "name": "fb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev":"parcel index.js",
+    "build":"parcel build index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Creepingdeath999/fb-visitors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Creepingdeath999/fb-visitors/issues"
+  },
+  "homepage": "https://github.com/Creepingdeath999/fb-visitors#readme",
+  "description": ""
 }
