@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-color: #f1f1f1;
+}
+
+main #info {
+  text-align: center;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
+  margin: 10px;
+  padding: 10px 0px;
+}
+
+main #info h1 {
+  color: #1877f2;
+  font-weight: 700;
+}
+
+main #form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 500px;
+  background-color: #fff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.01);
+}
+
+main #form input {
+  width: 80%;
+  outline: none;
+  padding: 10px;
+  border: 2px solid #ccc;
+  margin: 5px 0px;
+  border-radius: 10px;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+}
+
+main #form input:focus {
+  border-color: #1877f2;
+}
+
+main #form button {
+  outline: none;
+  border: none;
+  background-color: #1877f2;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+}
+
+main #form button:hover {
+  opacity: .6;
+}
+
+main #form p {
+  text-decoration: underline;
+  color: #07336e;
+  margin: 10px 0px;
+}
+
+main #form .create {
+  background-color: #42b72a;
+  padding: 13px 20px;
+}
+
+main #form h2 {
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+main #form h2 strong {
+  color: #1877f2;
+}
+/*# sourceMappingURL=style.css.map */
